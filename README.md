@@ -56,36 +56,59 @@ My mission is simple:
 ## 🛠️ Technical Skills  
 
 ### 🔐 Cybersecurity  
-- Risk Assessment  
-- Security Auditing  
-- IDS/IPS (Snort)  
-- Firewall Management (pfSense, MDF)  
-- Network Security  
+- Risk Assessment
+- Security Auditing
+- Cloud Security Monitoring (Azure)
+- SIEM Deployment & Management (Microsoft Sentinel)  
+- MITRE ATT&CK Framework Mapping
 
-### 🌐 Networking  
-- Network Protocols (TCP/IP, DNS, DHCP)  
-- Wireless Networking  
+### 🌐 Networking    
+- Networking  
 - Cisco Switch Configuration  
 - Router Configuration (Netgear)  
 - Wireshark Packet Analysis  
 
 ### 💻 Systems & Tools  
-- Active Directory Management  
-- Remote Access (RDP, RDC, CyberArk)  
-- Microsoft 365 Administration  
-- Virtualization Technologies  
+- Active Directory Management 
+- Geolocation Threat Intelligence & Attack Visualization
+- Virtualization Technologies (VMs in Azure)
+- Log Analytics & Kusto Query Language (KQL)
+- Security Dashboard Development (Sentinel Workbooks)
 
 ---
 
-## 🔬 What I’m Building  
+## 🔬 Projects & Labs
 
-I use GitHub to document hands-on labs and projects related to:
+### **Azure Cloud SOC Honeypot**
 
-- Network traffic analysis using Wireshark  
-- IDS/IPS configuration and monitoring with Snort  
-- Firewall rule configuration and segmentation  
-- Vulnerability assessment fundamentals  
-- Secure system hardening practices  
+A **cloud-based SOC simulation** in Azure designed to capture real-world attack activity, detect threats, and visualize security telemetry.
+
+**Key Features:**
+
+* Public-facing Windows VM acting as a honeypot
+* Windows Security Event Logs centralized in Azure Log Analytics
+* Custom **Microsoft Sentinel detection rules** for brute-force and suspicious authentication attempts
+* **Geolocation enrichment** of attacker IPs for global visualization
+* **MITRE ATT&CK mapping** for standardizing threat techniques
+* **Custom Sentinel Workbook** displaying:
+
+  * Global attack map
+  * Top attacking IP addresses and countries
+  * Failed login attempts over time
+  * Most targeted accounts
+
+**Example Screenshots:**
+
+![https://github.com/Dleach-hub/Azure-Cloud-SOC-HoneyPot/blob/main/AZURE-SOC-HoneyPot/SENTINEL_INCIDENTS.png](https://github.com/Dleach-hub/Azure-Cloud-SOC-HoneyPot/blob/main/AZURE-SOC-HoneyPot/SENTINEL_INCIDENTS.png)
+![https://github.com/Dleach-hub/Azure-Cloud-SOC-HoneyPot/blob/main/AZURE-SOC-HoneyPot/IP_ATTACK_MAP.png](https://github.com/Dleach-hub/Azure-Cloud-SOC-HoneyPot/blob/main/AZURE-SOC-HoneyPot/IP_ATTACK_MAP.png)
+
+**Skills Demonstrated:**
+
+* Cloud security monitoring & SIEM deployment
+* Kusto Query Language (KQL) for log analysis
+* Threat detection & incident investigation
+* MITRE ATT&CK framework application
+* Security visualization dashboard creation
 
 ---
 
@@ -96,3 +119,5 @@ I am actively growing toward advanced cybersecurity roles where I can apply my t
 ---
 
 ✨ *“Security is not just about defense — it’s about preparation, vigilance, and constant improvement.”* ✨
+
+
